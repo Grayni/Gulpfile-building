@@ -7,7 +7,7 @@
      Have two browser-servers.
 ***
 ### IMPORTANT:  
-     Need install `lamp or other local server`.
+     Need install **lamp or other local server**.
      Then first 'domain' must input in [app] - root-dir.
      Second 'domain' must input in [dist] - root-dir.
      In hosts-file write domains (mysite,dist) on 127.0.0.1
@@ -16,18 +16,18 @@
      Do not forget install missing pakages-gulp.
 ***
 #### For using create tree:  
-    *app  
-      *css  
-      *fonts  
-      *img  
-      *js  
-        *custom.js    // you create func  
-        *libs.js      // gulp-rigger import libs  
-      *libs             // dir bower libs  
-      *sass  
-        *libs.sass    // @import sass,scss,css  
-        *custom.sass  // you create sass  
-      *index.php        // or .html  
+    [app]  
+      [css]  
+      [fonts]  
+      [img]  
+      [js]  
+        custom.js    // you create func  
+        libs.js      // gulp-rigger import libs  
+      [libs]         // dir bower libs  
+      [sass]  
+        libs.sass    // @import sass,scss,css  
+        custom.sass  // you create sass  
+      index.php      // or .html  
 ***
 #### Commands:  
     gulp      => server for develop work (faster) (folder 'app')  
