@@ -16,15 +16,15 @@ Gulp config from Grayni
      Do not forget install missing pakages-gulp.
 
 #for using create tree:
-  [app]
-    [css]
-    [fonts]
-    [img]
-    [js]
+  +app
+    -css
+    -fonts
+    -img
+    +js
        custom.js    // you create func
        libs.js      // gulp-rigger import libs
-    [libs]          // dir bower libs
-    [sass]
+    -libs          // dir bower libs
+    +sass
        libs.sass    // @import sass,scss,css
        custom.sass  // you create sass
     index.php       // or .html
