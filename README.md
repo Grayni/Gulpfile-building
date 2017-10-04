@@ -1,12 +1,12 @@
-h2 Gulp config from Grayni  
+## Gulp config from Grayni  
 ***
-h4 Description:  
+#### Description:  
      Build gulpfile.js for development sites with use
      different libs and frameworks.
      Functions: convert, unites, minify (sass,css,scss in css), js, move in dist-dir.
      Have two browser-servers.
 ***
-### h3 IMPORTANT:  
+### IMPORTANT:  
      Need install `lamp or other local server`.
      Then first 'domain' must input in [app] - root-dir.
      Second 'domain' must input in [dist] - root-dir.
@@ -15,23 +15,23 @@ h4 Description:
      change ways root-dir ([app],[dist]). 
      Do not forget install missing pakages-gulp.
 ***
-### h3 For using create tree:  
-  + app  
-*   - [css]  
-*   - [fonts]  
-*   - [img]  
-*   + [js]  
-* *       custom.js    // you create func  
-* *       libs.js      // gulp-rigger import libs  
-*   + libs          // dir bower libs  
-*   + sass  
-* *      libs.sass    // @import sass,scss,css  
-* *      custom.sass  // you create sass  
-* *   index.php       // or .html  
+#### For using create tree:  
+    *app  
+      *css  
+      *fonts  
+      *img  
+      *js  
+        *custom.js    // you create func  
+        *libs.js      // gulp-rigger import libs  
+      *libs             // dir bower libs  
+      *sass  
+        *libs.sass    // @import sass,scss,css  
+        *custom.sass  // you create sass  
+      *index.php        // or .html  
 ***
-### h4 Commands:  
+#### Commands:  
     gulp      => server for develop work (faster) (folder 'app')  
     gulp dist => server for control final result  
     gulp save => easy save app in dist  
-    gulp clch => clear cache  
+    gulp clch => clear cache
 
